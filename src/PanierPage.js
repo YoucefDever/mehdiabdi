@@ -1,12 +1,11 @@
 import React, { useState } from "react";
-import "./App.css";
 import CarouselSection from "./components/js/CarouselSection";
 import ProductSection from "./components/js/ProductSection";
 import FormSection from "./components/js/FormSection";
 import DeliverySection from "./components/js/DeliverySection";
 import SummarySection from "./components/js/SummarySection";
 
-const App = () => {
+const PanierPage = () => {
   const [quantity, setQuantity] = useState(0);
   const [deliveryPrice, setDeliveryPrice] = useState(0);
   const pricePerItem = 50; // Static price per item
@@ -50,4 +49,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default PanierPage;
